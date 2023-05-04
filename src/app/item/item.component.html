@@ -1,1 +1,5 @@
-<p>item works!</p>
+<h2>{{ item.name }}</h2>
+<img [src]="item.imagePath">
+<p>{{ item.description }}</p>
+<p>🤌 {{ item.price }}</p>
+<button (click)="onAddToBucket()">Add to bucket</button>
